@@ -1,0 +1,69 @@
+.attribution {
+    font-size: 11px; text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  /*************************************************
+      Mobile Layout
+  **********************************/
+  
+  @media screen and (min-width: 400px) /*and (max-width: 768px)*/ {
+    body {
+      background-color: #FCF0FF;
+  /*     background-image: url('/assets/images/background-pattern-mobile'); */
+    }
+    
+    .box {
+      background-color: white;
+      margin: 100px 30px;
+      border-radius: 10px;
+      border: 1px solid white;
+      padding: 20px;
+    }
+    
+    .header, div {
+      display: flex;
+      
+    }
+    
+    h1 {
+        
+    }
+    
+    p {
+  /*     display: none; */
+    }
+    
+    span {
+      padding: 20px;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+  
+    tr {
+        border-bottom: 1px solid #BDBDBD;
+      }
+  
+  }
+  
+  /*************************************************
+      Tablet/Laptop Layout
+  **********************************/
+  
+  @media screen and (min-width: 769px) and (max-width: 1440px) {
+    
+  }
+  
+  /*************************************************
+      Desktop Layout
+  **********************************/
+  
+  @media screen and (min-width: 1441px) {
+    
+  }
