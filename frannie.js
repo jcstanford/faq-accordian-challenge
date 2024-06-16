@@ -29,7 +29,13 @@ plus2.addEventListener('click', show2)
 plus3.addEventListener('click', show3)
 plus4.addEventListener('click', show4)
 
+minus1.addEventListener('click', hide1) // new function needed
+minus2.addEventListener('click', hide2)
+minus3.addEventListener('click', hide3)
+minus4.addEventListener('click', hide4)
+
 // create the functions that will toggle display of p answer
+////  Accordian Show Answer
 function show1() {
 	answer1.classList.toggle('hidden')
   minus1.classList.toggle('hidden')
@@ -52,4 +58,30 @@ function show4() {
   answer4.classList.toggle('hidden')
   minus4.classList.toggle('hidden')
   plus4.classList.add('hidden')
+}
+
+//////   Accordian Hide Answer functions
+
+function hide1() {
+	answer1.classList.toggle('hidden')
+  minus1.classList.toggle('hidden')
+  plus1.classList.toggle('hidden')
+}
+
+function hide2() {
+	answer2.classList.toggle('hidden')
+  minus2.classList.toggle('hidden')
+  plus2.classList.toggle('hidden')
+}
+
+function hide3() {
+	answer3.classList.toggle('hidden')
+  minus3.classList.toggle('hidden')
+  plus3.classList.toggle('hidden')
+}
+
+function hide4() {
+	answer4.classList.toggle('hidden')
+  minus4.classList.toggle('hidden')
+  plus4.classList.toggle('hidden')
 }
