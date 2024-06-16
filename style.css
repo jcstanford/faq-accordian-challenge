@@ -41,12 +41,9 @@
       justify-content: space-between;
     }
     
-    h1 {
-        
-    }
-    
     p {
-      display: none;
+      /* display: none; */
+      
     }
     
     span {
@@ -60,6 +57,8 @@
   
     tr {
         border-bottom: 1px solid #BDBDBD;
+        display: flex;
+        flex-direction: column;
       }
   
   }
