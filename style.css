@@ -33,8 +33,12 @@
     }
     
     .header, div {
-      /* display: flex; */
+      display: flex;
       
+    }
+
+    table div {
+      justify-content: space-between;
     }
     
     h1 {
@@ -42,7 +46,7 @@
     }
     
     p {
-      
+      display: none;
     }
     
     span {
