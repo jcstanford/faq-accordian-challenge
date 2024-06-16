@@ -12,8 +12,16 @@
   
   @media screen and (min-width: 400px) /*and (max-width: 768px)*/ {
     body {
-      background-color: #FCF0FF;
-  /*     background-image: url('/assets/images/background-pattern-mobile'); */
+      background-color: #edd9f2;
+      background-image: url('/assets/images/background-pattern-mobile.svg');
+      background-repeat: no-repeat;
+      background-position-y: top;
+      background-position-x: center;
+      background-size: contain;
+    }
+
+    #star {
+
     }
     
     .box {
@@ -25,7 +33,7 @@
     }
     
     .header, div {
-      display: flex;
+      /* display: flex; */
       
     }
     
@@ -34,7 +42,7 @@
     }
     
     p {
-  /*     display: none; */
+      
     }
     
     span {
