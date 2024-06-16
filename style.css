@@ -41,6 +41,15 @@
       display: flex;
     }
 
+    .question > h3:hover {
+      color: #dd6af9;
+      cursor: pointer;
+    }
+
+    img:hover {
+      cursor: pointer;
+    }
+
     table div {
       justify-content: space-between;
     }
