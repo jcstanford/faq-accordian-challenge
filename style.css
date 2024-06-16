@@ -32,18 +32,20 @@
       padding: 20px;
     }
     
+    .header h1 {
+      margin-left: 20px;
+    }
+
     .header, div {
       display: flex;
-      
     }
 
     table div {
       justify-content: space-between;
     }
     
-    p {
-      /* display: none; */
-      
+    .hidden {
+      display: none;
     }
     
     span {
@@ -61,6 +63,9 @@
         flex-direction: column;
       }
   
+    tr td div h3 {
+      margin-right: 40px;
+    }
   }
   
   /*************************************************
