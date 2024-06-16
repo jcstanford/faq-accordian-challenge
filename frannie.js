@@ -22,6 +22,9 @@ document.querySelector('#show4').addEventListener('click', show4)
 // create the functions that will toggle display of p answer
 function show1() {
 	answer1.classList.toggle('hidden')
+  // answer2.classList.add('hidden')
+  // answer3.classList.add('hidden')
+  // answer4.classList.add('hidden')
 }
 
 function show2() {
