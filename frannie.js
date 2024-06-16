@@ -13,25 +13,43 @@ const answer2 = document.querySelector('#plus2')
 const answer3 = document.querySelector('#plus3')
 const answer4 = document.querySelector('#plus4')
 
+const minus1 = document.querySelector('#minus1')
+const minus2 = document.querySelector('#minus2')
+const minus3 = document.querySelector('#minus3')
+const minus4 = document.querySelector('#minus4')
+
+const plus1 = document.querySelector('#show1')
+const plus2 = document.querySelector('#show2')
+const plus3 = document.querySelector('#show3')
+const plus4 = document.querySelector('#show4')
+
 // create onclick events that link to what you want to click and that will display answer
-document.querySelector('#show1').addEventListener('click', show1)
-document.querySelector('#show2').addEventListener('click', show2)
-document.querySelector('#show3').addEventListener('click', show3)
-document.querySelector('#show4').addEventListener('click', show4)
+plus1.addEventListener('click', show1)
+plus2.addEventListener('click', show2)
+plus3.addEventListener('click', show3)
+plus4.addEventListener('click', show4)
 
 // create the functions that will toggle display of p answer
 function show1() {
 	answer1.classList.toggle('hidden')
+  minus1.classList.toggle('hidden')
+  plus1.classList.add('hidden')
 }
 
 function show2() {
 	answer2.classList.toggle('hidden')
+  minus2.classList.toggle('hidden')
+  plus2.classList.add('hidden')
 }
 
 function show3() {
 	answer3.classList.toggle('hidden')
+  minus3.classList.toggle('hidden')
+  plus3.classList.add('hidden')
 }
 
 function show4() {
   answer4.classList.toggle('hidden')
+  minus4.classList.toggle('hidden')
+  plus4.classList.add('hidden')
 }
