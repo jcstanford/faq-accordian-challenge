@@ -6,12 +6,22 @@
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.5em;
+  }
+
+  h3, p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+  }
   
   /*************************************************
       Mobile Layout
   **********************************/
   
-  @media screen and (min-width: 400px) /*and (max-width: 768px)*/ {
+  @media screen and (min-width: 300px) and (max-width: 700px) {
     body {
       background-color: #edd9f2;
       background-image: url('/assets/images/background-pattern-mobile.svg');
@@ -19,10 +29,6 @@
       background-position-y: top;
       background-position-x: center;
       background-size: contain;
-    }
-
-    #star {
-
     }
     
     .box {
@@ -82,8 +88,65 @@
       Tablet/Laptop Layout
   **********************************/
   
-  @media screen and (min-width: 769px) and (max-width: 1440px) {
+  @media screen and (min-width: 700px) and (max-width: 1440px) {
+    body {
+      background-color: #edd9f2;
+      background-image: url('/assets/images/background-pattern-desktop.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
     
+    .box {
+      background-color: white;
+      margin: 100px 150px;
+      border-radius: 10px;
+      border: 1px solid white;
+      padding: 20px;
+    }
+    
+    .header h1 {
+      margin-left: 20px;
+    }
+
+    .header, .question {
+      display: flex;
+    }
+
+    .question > h3:hover {
+      color: #dd6af9;
+      cursor: pointer;
+    }
+
+    img:hover {
+      cursor: pointer;
+    }
+
+    table div {
+      justify-content: space-between;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    span {
+      padding: 20px;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+  
+    tr {
+        border-bottom: 1px solid #BDBDBD;
+        display: flex;
+        flex-direction: column;
+      }
+  
+    tr td div h3 {
+      margin-right: 40px;
+    }
   }
   
   /*************************************************
@@ -91,5 +154,62 @@
   **********************************/
   
   @media screen and (min-width: 1441px) {
+    body {
+      background-color: #edd9f2;
+      background-image: url('/assets/images/background-pattern-desktop.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
     
+    .box {
+      background-color: white;
+      margin: 225px 500px;
+      border-radius: 10px;
+      border: 1px solid white;
+      padding: 20px;
+    }
+    
+    .header h1 {
+      margin-left: 20px;
+    }
+
+    .header, .question {
+      display: flex;
+    }
+
+    .question > h3:hover {
+      color: #dd6af9;
+      cursor: pointer;
+    }
+
+    img:hover {
+      cursor: pointer;
+    }
+
+    table div {
+      justify-content: space-between;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    span {
+      padding: 20px;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+  
+    tr {
+        border-bottom: 1px solid #BDBDBD;
+        display: flex;
+        flex-direction: column;
+      }
+  
+    tr td div h3 {
+      margin-right: 40px;
+    } 
   }
